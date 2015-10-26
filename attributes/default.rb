@@ -5,7 +5,7 @@ default['pw_chefdk']['kitchen']['os_url'] = "http://localhost/foo"
 default['pw_chefdk']['kitchen']['os_user'] = "demo"
 default['pw_chefdk']['kitchen']['os_pass'] = "demo"
 default['pw_chefdk']['kitchen']['os_keyname'] = "demo"
-default['pw_chefdk']['kitchen']['os_img'] = 'pingworks/docker-pw_baseimg:0.2'
+default['pw_chefdk']['kitchen']['os_img'] = 'pingworks/docker-ws-baseimg:0.2'
 default['pw_chefdk']['kitchen']['os_flavor'] = 'default'
 
 default['pw_chefdk']['kitchen']['user'] = 'ubuntu'
