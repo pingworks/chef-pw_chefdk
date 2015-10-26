@@ -8,3 +8,6 @@ driver:
   require_chef_omnibus: False
   image_ref: <%= node['pw_chefdk']['kitchen']['os_img'] %>
   flavor_ref: <%= node['pw_chefdk']['kitchen']['os_flavor'] %>
+
+provisioner:
+  chef_zero_host: 127.0.0.1
